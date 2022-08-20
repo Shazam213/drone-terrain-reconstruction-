@@ -31,3 +31,16 @@
 
 * Technical Definition of Basis Vectors: The basis of a vector space is a set of linearly independent vectors that span the full space.
 
+### Chapter 03: Linear Transformations & Matrices
+
+* Rules:
+  * The origin must remain fixed.
+  * The grid lines of the system must remain parallel and equidistant & must not get curved.
+
+* To determine where the vector lands after transformation, we only have to find out where the two basis vectors i-hat and j-hat land after the transformation.
+
+* So, for every vector which is a linear combination of the basis vectors, the transformed vector will also obey the same linear combination of the transformed basis vectors.
+
+* If the transformed basis vectors are linearly dependent, then the linear transformation squishes all of 2D space onto the line on which the two vectors sit.
+
+
