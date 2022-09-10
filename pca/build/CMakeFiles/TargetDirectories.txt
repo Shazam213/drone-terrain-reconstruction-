@@ -1,3 +1,0 @@
-/home/soham/eklavya/pca/build/CMakeFiles/rebuild_cache.dir
-/home/soham/eklavya/pca/build/CMakeFiles/edit_cache.dir
-/home/soham/eklavya/pca/build/CMakeFiles/kdtree_search.dir
