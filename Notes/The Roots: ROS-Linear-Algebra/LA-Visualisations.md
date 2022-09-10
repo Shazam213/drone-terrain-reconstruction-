@@ -13,7 +13,7 @@
 
 * _i_-hat and _j_-hat are called the "**basis vectors**" of the standard coordinate system.
 
-![BasisVectors](01.png)
+![BasisVectors](https://user-images.githubusercontent.com/95737452/189468015-785c515e-065d-44c6-b058-62c9439f6fc1.png)
 
 * So, each vector in the XY-coordinate system can be obtained as a sum of two vectors obtained by the scaling (stretching/squishing/flipping) of the basis vectors of the XY system. This is called "**linear combination**" of the two vectors.
 
