@@ -32,6 +32,21 @@
 
 <h2> Surface Normal Estimation with Principal Component Analysis <a name="Surface-Normal-Estimation-with-Principal-Component-Analysis"></a></h2>
 
+<h3> Implementation </h3>
+
+> Principal Component Analysis works on reducing the dimensionality of the input dataset, by considering principal components, which contribute significantly to data variance.
+
+<h3> Output </h3>
+
+<h2> References <a name="References"></a></h2>
+https://pcl.readthedocs.io/projects/tutorials/en/latest/greedy_projection.htmlhttps://pcl.readthedocs.io/projects/tutorials/en/latest/greedy_projection.htmlhttps://pcl.readthedocs.io/projects/tutorials/en/latest/greedy_projection.htmlhttps://pcl.readthedocs.io/projects/tutorials/en/latest/greedy_projection.html
+* Surface Reconstruction Thesis: https://nccastaff.bmth.ac.uk/jmacey/OldWeb/MastersProjects/MSc13/14/Thesis/SurfaceReconstructionThesis.pdf 
+* VoxelGrid Downsampling Official Documentation: https://pcl.readthedocs.io/en/latest/voxel_grid.html
+* Principal Component Analysis & Normal Estimation:
+    1. Theory: https://slideplayer.com/slide/3431756/
+    2. Official Documentation: https://pcl.readthedocs.io/projects/tutorials/en/latest/normal_estimation.html#estimating-the-normals
+* Greedy Algorithm & Mesh Reconstruction, Official Documentation: https://pcl.readthedocs.io/projects/tutorials/en/latest/greedy_projection.html
+
 
 
 
