@@ -6,8 +6,9 @@
 3. [Downsampling with VoxelGrid Filter](#Downsampling-with-VoxelGrid-Filter)
 4. [Surface Normal Estimation with Principal Component Analysis](#Surface-Normal-Estimation-with-Principal-Component-Analysis)
 5. [Mesh Construction with Greedy Algorithm](#Mesh-Construction-with-Greedy-Algorithm)
-6. [Files Mentioned](#Files-Mentioned)
-7. [References](#References)
+6. [Algorithm On A Terrain Dataset](#Algorithm-On-A-Terrain-DataSet)
+7. [Files Mentioned](#Files-Mentioned)
+8. [References](#References)
 
 <h2> Process Flow <a name="Process-Flow"></a></h2>
 
@@ -54,6 +55,18 @@
 <h3> Output </h3>
 
 ![Post-Greedy-Output](https://user-images.githubusercontent.com/95737452/189991746-f344cddc-0c55-482e-9eb3-5cf7dae9e631.png)
+
+<h2> Algorithm On A Terrain Dataset <a name = #Algorithm-On-A-Terrain-DataSet></a></h2>
+
+* With the results obtained so far, we tried using this combined algorithm on a real terrain dataset.
+* The first conclusion we drew from this is that using VoxelGrid Downsampling causes us to lose most of terrain's curves, given the output we obtained was as follows:
+
+![with-downsampling-output](https://user-images.githubusercontent.com/95737452/190857177-99252dd5-6b48-4f23-98bf-1e1e646d7a4b.png)
+
+* Post-downsampling, and altering the alogrithm's parameters to suit our set, the output was as follows:
+
+![without-dowsampling-output](https://user-images.githubusercontent.com/95737452/190857698-e380cb6f-3bfc-41ca-afa0-592f72a18c6e.png)
+
 
 <h2> Files Mentioned <a name = "Files-Mentioned"></a></h2>
 
