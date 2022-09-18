@@ -1,0 +1,34 @@
+{
+	"BUILD_DIR" : "/home/soham/drone_ws/build/sjtu_drone/plugin_ros_sonar_autogen",
+	"CMAKE_BINARY_DIR" : "/home/soham/drone_ws/build/sjtu_drone",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/soham/drone_ws/build/sjtu_drone",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/soham/drone_ws/src/sjtu-drone",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/soham/drone_ws/src/sjtu-drone",
+	"HEADERS" : 
+	[
+		[
+			"/home/soham/drone_ws/src/sjtu-drone/include/plugin_ros_sonar.h",
+			"mU",
+			""
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/soham/drone_ws/build/sjtu_drone/plugin_ros_sonar_autogen/include",
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/home/soham/drone_ws/build/sjtu_drone/CMakeFiles/plugin_ros_sonar_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/soham/drone_ws/build/sjtu_drone/CMakeFiles/plugin_ros_sonar_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/soham/drone_ws/src/sjtu-drone/src/plugin_ros_sonar.cpp", "mU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

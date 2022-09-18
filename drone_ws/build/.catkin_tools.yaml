@@ -1,0 +1,6 @@
+devel_space: /home/soham/drone_ws/devel
+install: false
+install_space: /home/soham/drone_ws/install
+profile: default
+source_space: /home/soham/drone_ws/src
+workspace: /home/soham/drone_ws

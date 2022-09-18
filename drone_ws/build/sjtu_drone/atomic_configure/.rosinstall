@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/soham/drone_ws/devel/.private/sjtu_drone/setup.sh

@@ -1,0 +1,5 @@
+rotors_simulator/rotors_model
+/home/soham/drone_ws/devel/.private/rotors_model/cmake.lock /home/soham/drone_ws/devel/./cmake.lock
+/home/soham/drone_ws/devel/.private/rotors_model/share/rotors_model/cmake/rotors_modelConfig.cmake /home/soham/drone_ws/devel/share/rotors_model/cmake/rotors_modelConfig.cmake
+/home/soham/drone_ws/devel/.private/rotors_model/share/rotors_model/cmake/rotors_modelConfig-version.cmake /home/soham/drone_ws/devel/share/rotors_model/cmake/rotors_modelConfig-version.cmake
+/home/soham/drone_ws/devel/.private/rotors_model/lib/pkgconfig/rotors_model.pc /home/soham/drone_ws/devel/lib/pkgconfig/rotors_model.pc

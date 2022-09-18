@@ -1,0 +1,5 @@
+ROS_quadrotor_simulator/quad_gazebo
+/home/soham/drone_ws/devel/.private/quad_gazebo/cmake.lock /home/soham/drone_ws/devel/./cmake.lock
+/home/soham/drone_ws/devel/.private/quad_gazebo/share/quad_gazebo/cmake/quad_gazeboConfig-version.cmake /home/soham/drone_ws/devel/share/quad_gazebo/cmake/quad_gazeboConfig-version.cmake
+/home/soham/drone_ws/devel/.private/quad_gazebo/share/quad_gazebo/cmake/quad_gazeboConfig.cmake /home/soham/drone_ws/devel/share/quad_gazebo/cmake/quad_gazeboConfig.cmake
+/home/soham/drone_ws/devel/.private/quad_gazebo/lib/pkgconfig/quad_gazebo.pc /home/soham/drone_ws/devel/lib/pkgconfig/quad_gazebo.pc

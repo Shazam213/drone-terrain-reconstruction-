@@ -1,0 +1,13 @@
+In file included from [01m[K/home/soham/drone_ws/src/sjtu-drone/scripts/listener.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/pcl_ros/point_cloud.h:5:10:[m[K [01;31m[Kfatal error: [m[Kpcl/point_cloud.h: No such file or directory
+    5 | #include [01;31m[K<pcl/point_cloud.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/scripts/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/soham/drone_ws/src/sjtu-drone/src/drone_object_ros.cpp:[m[K In member function ‘[01m[Kbool DroneObjectROS::moveTo(float, float, float)[m[K’:
+[01m[K/home/soham/drone_ws/src/sjtu-drone/src/drone_object_ros.cpp:103:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  103 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+make: *** [Makefile:141: all] Error 2

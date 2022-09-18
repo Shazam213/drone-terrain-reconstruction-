@@ -1,0 +1,5 @@
+Linked: (/home/soham/drone_ws/devel/.private/sjtu_drone/share/sjtu_drone/cmake/sjtu_droneConfig-version.cmake, /home/soham/drone_ws/devel/share/sjtu_drone/cmake/sjtu_droneConfig-version.cmake)
+Linked: (/home/soham/drone_ws/devel/.private/sjtu_drone/share/sjtu_drone/cmake/sjtu_droneConfig.cmake, /home/soham/drone_ws/devel/share/sjtu_drone/cmake/sjtu_droneConfig.cmake)
+Symlinking /home/soham/drone_ws/devel/lib/sjtu_drone/listener
+Linked: (/home/soham/drone_ws/devel/.private/sjtu_drone/lib/sjtu_drone/drone_keyboard, /home/soham/drone_ws/devel/lib/sjtu_drone/drone_keyboard)
+Linked: (/home/soham/drone_ws/devel/.private/sjtu_drone/lib/pkgconfig/sjtu_drone.pc, /home/soham/drone_ws/devel/lib/pkgconfig/sjtu_drone.pc)

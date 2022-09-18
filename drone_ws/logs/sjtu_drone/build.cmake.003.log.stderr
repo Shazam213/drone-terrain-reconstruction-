@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/soham/drone_ws/src/sjtu-drone/CMakeLists.txt:15 (find_package):
+  By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "gazebo", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "gazebo" with any
+  of the following names:
+
+    gazeboConfig.cmake
+    gazebo-config.cmake
+
+  Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+  "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

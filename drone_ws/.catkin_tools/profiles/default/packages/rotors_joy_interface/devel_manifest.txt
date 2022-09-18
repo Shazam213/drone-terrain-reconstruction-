@@ -1,0 +1,6 @@
+rotors_simulator/rotors_joy_interface
+/home/soham/drone_ws/devel/.private/rotors_joy_interface/cmake.lock /home/soham/drone_ws/devel/./cmake.lock
+/home/soham/drone_ws/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake /home/soham/drone_ws/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig-version.cmake
+/home/soham/drone_ws/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake /home/soham/drone_ws/devel/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake
+/home/soham/drone_ws/devel/.private/rotors_joy_interface/lib/rotors_joy_interface/rotors_joy_interface /home/soham/drone_ws/devel/lib/rotors_joy_interface/rotors_joy_interface
+/home/soham/drone_ws/devel/.private/rotors_joy_interface/lib/pkgconfig/rotors_joy_interface.pc /home/soham/drone_ws/devel/lib/pkgconfig/rotors_joy_interface.pc

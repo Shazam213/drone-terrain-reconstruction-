@@ -1,0 +1,14 @@
+[01m[K/home/soham/drone_ws/src/sjtu-drone/src/drone_object_ros.cpp:[m[K In member function ‘[01m[Kbool DroneObjectROS::moveTo(float, float, float)[m[K’:
+[01m[K/home/soham/drone_ws/src/sjtu-drone/src/drone_object_ros.cpp:103:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  103 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+In file included from [01m[K/home/soham/drone_ws/src/sjtu-drone/src/plugin_drone.cpp:1[m[K:
+[01m[K/home/soham/drone_ws/src/sjtu-drone/include/plugin_drone.h:7:10:[m[K [01;31m[Kfatal error: [m[Kignition/math4/ignition/math.hh: No such file or directory
+    7 | #include [01;31m[K"ignition/math4/ignition/math.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/plugin_drone.dir/build.make:63: CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:258: CMakeFiles/plugin_drone.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

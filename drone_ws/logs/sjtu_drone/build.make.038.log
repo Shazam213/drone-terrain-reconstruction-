@@ -1,0 +1,21 @@
+[  4%] [34m[1mAutomatic UIC for target listener[0m
+[  8%] [34m[1mAutomatic UIC for target plugin_ros_sonar[0m
+[ 12%] [34m[1mAutomatic UIC for target drone_keyboard[0m
+[ 12%] Built target listener_autogen
+[ 12%] Built target plugin_ros_sonar_autogen
+[ 12%] Built target drone_keyboard_autogen
+[ 20%] Built target plugin_ros_imu
+[ 28%] Built target plugin_ros_init
+[ 40%] Built target plugin_drone
+[ 52%] Built target plugin_ros_cam
+[ 56%] [32mBuilding CXX object CMakeFiles/listener.dir/scripts/listener.cpp.o[0m
+[ 64%] Built target plugin_ros_sonar
+[ 96%] Built target drone_keyboard
+In file included from [01m[K/home/soham/drone_ws/src/sjtu-drone/scripts/listener.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/pcl_ros/point_cloud.h:5:10:[m[K [01;31m[Kfatal error: [m[Kpcl/point_cloud.h: No such file or directory
+    5 | #include [01;31m[K<pcl/point_cloud.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/scripts/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
