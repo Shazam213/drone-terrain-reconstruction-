@@ -1,1 +1,0 @@
-/home/soham/drone_ws/devel/./cmake.lock 522

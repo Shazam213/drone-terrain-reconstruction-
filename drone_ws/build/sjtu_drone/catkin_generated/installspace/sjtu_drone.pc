@@ -1,8 +1,0 @@
-prefix=/home/soham/drone_ws/install
-
-Name: sjtu_drone
-Description: Description of sjtu_drone
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy image_transport std_msgs sensor_msgs geometry_msgs message_runtime gazebo_ros

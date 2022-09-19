@@ -1,9 +1,0 @@
-ROS_quadrotor_simulator/quad_control
-/home/soham/drone_ws/devel/.private/quad_control/cmake.lock /home/soham/drone_ws/devel/./cmake.lock
-/home/soham/drone_ws/devel/.private/quad_control/share/quad_control/cmake/quad_controlConfig.cmake /home/soham/drone_ws/devel/share/quad_control/cmake/quad_controlConfig.cmake
-/home/soham/drone_ws/devel/.private/quad_control/share/quad_control/cmake/quad_controlConfig-version.cmake /home/soham/drone_ws/devel/share/quad_control/cmake/quad_controlConfig-version.cmake
-/home/soham/drone_ws/devel/.private/quad_control/lib/libquad_controller.so /home/soham/drone_ws/devel/lib/libquad_controller.so
-/home/soham/drone_ws/devel/.private/quad_control/lib/quad_control/position_controller_node /home/soham/drone_ws/devel/lib/quad_control/position_controller_node
-/home/soham/drone_ws/devel/.private/quad_control/lib/quad_control/attitude_controller_node /home/soham/drone_ws/devel/lib/quad_control/attitude_controller_node
-/home/soham/drone_ws/devel/.private/quad_control/lib/quad_control/waypoint_publisher_node /home/soham/drone_ws/devel/lib/quad_control/waypoint_publisher_node
-/home/soham/drone_ws/devel/.private/quad_control/lib/pkgconfig/quad_control.pc /home/soham/drone_ws/devel/lib/pkgconfig/quad_control.pc

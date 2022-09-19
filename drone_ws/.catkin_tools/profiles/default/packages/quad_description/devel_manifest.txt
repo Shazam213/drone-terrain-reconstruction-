@@ -1,5 +1,0 @@
-ROS_quadrotor_simulator/quad_description
-/home/soham/drone_ws/devel/.private/quad_description/cmake.lock /home/soham/drone_ws/devel/./cmake.lock
-/home/soham/drone_ws/devel/.private/quad_description/share/quad_description/cmake/quad_descriptionConfig.cmake /home/soham/drone_ws/devel/share/quad_description/cmake/quad_descriptionConfig.cmake
-/home/soham/drone_ws/devel/.private/quad_description/share/quad_description/cmake/quad_descriptionConfig-version.cmake /home/soham/drone_ws/devel/share/quad_description/cmake/quad_descriptionConfig-version.cmake
-/home/soham/drone_ws/devel/.private/quad_description/lib/pkgconfig/quad_description.pc /home/soham/drone_ws/devel/lib/pkgconfig/quad_description.pc

@@ -1,2 +1,0 @@
-mav_comm/mav_comm
-/home/soham/drone_ws/devel/.private/mav_comm/cmake.lock /home/soham/drone_ws/devel/./cmake.lock

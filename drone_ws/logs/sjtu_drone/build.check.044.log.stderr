@@ -1,6 +1,0 @@
-[33mWARNING: Target "plugin_ros_cam" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.[0m
-[33mWARNING: Target "plugin_ros_cam" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.[0m
-[33mWARNING: Target "plugin_ros_cam" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.[0m
-[33mWARNING: Target "plugin_ros_init" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.[0m
-[33mWARNING: Target "plugin_ros_init" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.[0m
-[33mWARNING: Target "plugin_ros_init" requests linking to directory "/usr/lib/x86_64-linux-gnu".  Targets may link only to libraries.  CMake is dropping the item.[0m

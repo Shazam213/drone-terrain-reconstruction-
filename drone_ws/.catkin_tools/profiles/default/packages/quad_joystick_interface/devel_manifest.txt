@@ -1,6 +1,0 @@
-ROS_quadrotor_simulator/quad_joystick_interface
-/home/soham/drone_ws/devel/.private/quad_joystick_interface/cmake.lock /home/soham/drone_ws/devel/./cmake.lock
-/home/soham/drone_ws/devel/.private/quad_joystick_interface/share/quad_joystick_interface/cmake/quad_joystick_interfaceConfig.cmake /home/soham/drone_ws/devel/share/quad_joystick_interface/cmake/quad_joystick_interfaceConfig.cmake
-/home/soham/drone_ws/devel/.private/quad_joystick_interface/share/quad_joystick_interface/cmake/quad_joystick_interfaceConfig-version.cmake /home/soham/drone_ws/devel/share/quad_joystick_interface/cmake/quad_joystick_interfaceConfig-version.cmake
-/home/soham/drone_ws/devel/.private/quad_joystick_interface/lib/quad_joystick_interface/quad_joystick_interface /home/soham/drone_ws/devel/lib/quad_joystick_interface/quad_joystick_interface
-/home/soham/drone_ws/devel/.private/quad_joystick_interface/lib/pkgconfig/quad_joystick_interface.pc /home/soham/drone_ws/devel/lib/pkgconfig/quad_joystick_interface.pc

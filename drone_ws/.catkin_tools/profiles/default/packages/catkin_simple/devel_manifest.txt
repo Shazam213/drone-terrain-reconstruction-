@@ -1,6 +1,0 @@
-catkin_simple
-/home/soham/drone_ws/devel/.private/catkin_simple/cmake.lock /home/soham/drone_ws/devel/./cmake.lock
-/home/soham/drone_ws/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simpleConfig-version.cmake /home/soham/drone_ws/devel/share/catkin_simple/cmake/catkin_simpleConfig-version.cmake
-/home/soham/drone_ws/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simpleConfig.cmake /home/soham/drone_ws/devel/share/catkin_simple/cmake/catkin_simpleConfig.cmake
-/home/soham/drone_ws/devel/.private/catkin_simple/share/catkin_simple/cmake/catkin_simple-extras.cmake /home/soham/drone_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake
-/home/soham/drone_ws/devel/.private/catkin_simple/lib/pkgconfig/catkin_simple.pc /home/soham/drone_ws/devel/lib/pkgconfig/catkin_simple.pc

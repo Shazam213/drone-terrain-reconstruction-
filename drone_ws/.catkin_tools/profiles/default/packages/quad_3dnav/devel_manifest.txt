@@ -1,5 +1,0 @@
-ROS_quadrotor_simulator/quad_3dnav
-/home/soham/drone_ws/devel/.private/quad_3dnav/cmake.lock /home/soham/drone_ws/devel/./cmake.lock
-/home/soham/drone_ws/devel/.private/quad_3dnav/share/quad_3dnav/cmake/quad_3dnavConfig.cmake /home/soham/drone_ws/devel/share/quad_3dnav/cmake/quad_3dnavConfig.cmake
-/home/soham/drone_ws/devel/.private/quad_3dnav/share/quad_3dnav/cmake/quad_3dnavConfig-version.cmake /home/soham/drone_ws/devel/share/quad_3dnav/cmake/quad_3dnavConfig-version.cmake
-/home/soham/drone_ws/devel/.private/quad_3dnav/lib/pkgconfig/quad_3dnav.pc /home/soham/drone_ws/devel/lib/pkgconfig/quad_3dnav.pc
