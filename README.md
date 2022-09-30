@@ -9,7 +9,7 @@ Flying a drone over some terraing and to construct a 3D model of that terrain.
   * [About The Project](#about-the-project)
     * [Tech Stack](#tech-stack)
     * [File Structure](#file-structure)
-  * [Getting Started](#getting-started)
+  * [Getting Started](#getting-started) 
     * [Prerequisites and installlation](#prerequisites-and-installlation)
     * [Installation](#installation)
     * [Execution](#execution)
@@ -54,20 +54,33 @@ Flying a drone over some terraing and to construct a 3D model of that terrain.
  ┃ ┃ ┣ 📂meshes
  ┃ ┃ ┣ 📜model.config
  ┃ ┃ ┗ 📜model.sdf
- ┣ 📂plugins
- ┣ 📂scripts                          #python programs used to run the drone
- ┃ ┣ 📂__pycache__
- ┃ ┣ 📜control.py                     #brain of the drone, this file needs to be executed
- ┃ ┣ 📜pid.py                         #contains the math needed to stabilise the drone
+ ┣ 📂plugins                         #plugins for the model
+ ┃ ┗ 📜libplugin_drone.so
+ ┃ ┗ 📜libplugin_ros_cam.so             
+ ┃ ┗ 📜libplugin_ros_imu.so           
+ ┃ ┗ 📜libplugin_ros_sonar.so          
+ ┣ 📂scripts                          #C++ program used to run the drone
+ ┃ ┣ listener.cpp                     #Used to get PCD from the drone and to process the data using PCL
  ┣ 📂src                              #contains custom plugins used with the drone
- ┃ ┣ 📜gazebo_edrone_propulsion.cpp
- ┃ ┗ 📜gazebo_ros_gps.cpp
+ ┃ ┣ 📜DialogKeyboard.cpp
+ ┃ ┗ 📜DialogKeyboard.ui
+ ┃ ┗ 📜drone_keyboard.cpp
+ ┃ ┗ 📜drone_object_ros.cpppid_controller.cpp
+ ┃ ┗ 📜plugin_drone.cpp
+ ┃ ┗ 📜plugin_ros_cam.cpp
+ ┃ ┗ 📜plugin_ros_imu.cpp
+ ┃ ┗ 📜plugin_ros_imu_native.cpp
+ ┃ ┗ 📜plugin_ros_init.cpp
+ ┃ ┗ 📜plugin_ros_sonar.cpp
+ ┃ ┗ 📜util_ros_cam.cpp
  ┣ 📂urdf
+ ┃ ┗ 📜sjtu_drone.urdf
  ┣ 📂worlds                           #world files
- ┃ ┣ 📜drone.world
+ ┃ ┣ 📜terrain.world
  ┣ 📜CMakeLists.txt
  ┣ 📜README.md
  ┗ 📜package.xml
+ 
  ```
  
  ## Getting Started
