@@ -1,5 +1,5 @@
 # Project
-Flying a drone over some terraing and to construct a 3D model of that terrain.
+Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to construct a 3D model of that terrain with the incorporation of the Point Cloud Library (PCL).
 
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
@@ -22,13 +22,17 @@ Flying a drone over some terraing and to construct a 3D model of that terrain.
 <!-- ABOUT THE PROJECT -->
 ## About the Project
 
-* The idea is to have a Drone fly over some terrain in ROS with a GPS and a Depth sensor, then get the pointcloud data from the drone and create a 3D map of the topography of the terrain. 
-* The main aim of the project is to learn about surface reconstruction of pointcloud data involving techniques such as subsampling and various algorithm for mesh creation.
+* The idea is to have a Drone fly over some terrain in ROS with a GPS and a Depth sensor, then get the pointcloud data from the drone and create a 3D map of the topography of the terrain.
+* The traditional problem addressed by surface reconstruction is to recover the digital representation of a physical shape that has been scanned, where the scanned data contains a wide variety of defects. At its core, therefore, surface reconstruction is the process by which a 3D object is inferred, or “reconstructed”, from a collection of discrete points that sample the shape, which is in our case, is obtained from LiDAR Sensors. 
+* Throughout the course of this project, we learnt about several reconstruction techniques that included such as subsampling, upsampling, estimation of surface normals and algorithm for mesh creation from these calculated normals.
+* The project was started with the use of ROS to obtain the Point Cloud data of a terrain with the use of LiDAR sesnsors. The use of Point Cloud Library followed to create 3D Polygonal Meshes and understanding its usage and experimenting with the various algorithms used in PCL for reconstructing meshes from the point clouds. 
+* PCL makes use of many algorithms like Marching Cubes, Grid Projection, Greedy Projection, etc. After experimenting, the project focused on creating the mesh using the Greedy Projection Triangulation algorithm. The data for GPT has been created from the Point Cloud using Moving Least Squares via Maximum Likelihood Estimation.
 
 ### Tech Stack
 * [ROS Noetic](http://wiki.ros.org/noetic)
 * [Gazebo](http://gazebosim.org/)
 * [Point Cloud Library](https://pcl.readthedocs.io/en/latest/)
+* [MeshLab](https://www.meshlab.net/#download) (optional)
 
 ### File Structure
 ```
