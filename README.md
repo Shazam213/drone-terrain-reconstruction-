@@ -2,7 +2,6 @@
 Flying a drone over some terraing and to construct a 3D model of that terrain.
 
 <!-- TABLE OF CONTENTS -->
-
 ## Table Of Contents
 * [Project](#project)
   * [Table of Contents](#table-of-contents)
@@ -13,13 +12,14 @@ Flying a drone over some terraing and to construct a 3D model of that terrain.
     * [Prerequisites and installlation](#prerequisites-and-installlation)
     * [Installation](#installation)
     * [Execution](#execution)
-  * [Algorithm Flowchart](#algorithm-flowchart)
+  * [Process Flow](#process-flow)
   * [Results and Demo](#results-and-demo)
   * [Future Work](#future-work)
   * [Contributors](#contributors)
   * [Acknowledgements and Resources](#acknowledgements-and-resources)
   * [License](#license)
 
+<!-- ABOUT THE PROJECT -->
 ## About the Project
 
 * The idea is to have a Drone fly over some terrain in ROS with a GPS and a Depth sensor, then get the pointcloud data from the drone and create a 3D map of the topography of the terrain. 
@@ -32,7 +32,7 @@ Flying a drone over some terraing and to construct a 3D model of that terrain.
 
 ### File Structure
 ```
-📦Eklavya---Drone-3D-Topography
+📦Drone-3D-topography
  ┣ 📂assets                           #contains gifs, videos and images of the results
  ┣ 📂config                           #Rviz config files
  ┣ 📂include                          #include files for the plugins
@@ -82,7 +82,7 @@ Flying a drone over some terraing and to construct a 3D model of that terrain.
  ┗ 📜package.xml
  
  ```
- 
+<!-- GETTING STARTED --> 
  ## Getting Started
  
  ### Prerequisites and Installlation
@@ -90,6 +90,7 @@ Flying a drone over some terraing and to construct a 3D model of that terrain.
 * Tested on [Ubuntu 20.04](https://ubuntu.com/download/desktop)
 * [ROS Noetic](http://wiki.ros.org/noetic/Installation)
 * [Gazebo Sim](http://gazebosim.org/)
+* [Point Cloud Library](https://pointclouds.org/downloads/#linux)
 * Do visit these websites for the installation steps of the above mentioned software. It is recommended to install Gazebo along with ROS and not seperately
  
 ### Installation
@@ -97,13 +98,65 @@ Flying a drone over some terraing and to construct a 3D model of that terrain.
 ```sh
 git clone https://github.com/Shazam213/Drone-3d-topography.git
 ```
+Add this folder to the **src** directory of your **catkin workspace**. If you haven't yet created the src folder, do so using the following command:
 
+```sh
+mkdir src
+```
+Initialise the project with
 
- 
- 
- 
- 
- <!-- CONTRIBUTORS -->
+```sh
+catkin build
+source ~/catkin_ws/devel/setup.bash
+```
+
+### Execution
+
+Open three terminals and run the following commands:
+
+* Terminal 1:                                         
+
+```sh
+source ~/catkin_ws/devel/setup.bash
+roslaunch sjtu_drone simple.launch
+```
+
+* Terminal 2:                                         
+```sh
+source ~/catkin_ws/devel/setup.bash
+rosrun sjtu_drone drone_keyboard
+```
+
+* Terminal 3:
+
+```sh
+source ~/catkin_ws/devel/setup.bash
+rosrun sjtu_drone listener
+```
+<!-- PROCESS FLOW -->
+## Process Flow
+
+<!-- RESULTS AND DEMO -->
+## Results and Demo
+
+<!-- FUTURE WORK -->
+## Future Work
+- [] Uderstand [CGAL](https://www.cgal.org/) To implement surface reconstruction algorithms.
+- [] Understand the implementation of Delaunay Triangulation using CGAL.
+- [] Improve the algorithm to make it work for multiple frames of data.
+
+<!-- CONTRIBUTORS -->
 ## Contributors
 * [Soham Mulye](https://github.com/shazam213)
 * [Unmani Shinde](https://github.com/unmani-shinde)
+
+<!-- ACKNOWLEDGMENTS AND RESOURCES -->
+## Acknowledgements and Resources
+* [SRA VJTI](http://sra.vjti.info/) Eklavya 2022  
+* [Danping Zou & Tahsincan Köse](https://github.com/tahsinkose/sjtu-drone) for the model of the drone. 
+* [Navpreet Kaur Pawar](https://nccastaff.bmth.ac.uk/jmacey/OldWeb/MastersProjects/MSc13/14/Thesis/SurfaceReconstructionThesis.pdf) for the master thesis 'Surface Reconstruction from Point Clouds', which was extremely illuminating.
+* Our mentors [Jash Shah](https://github.com/Jash-Shah) and [Sarrah Bastawala](https://github.com/sarrah-basta) for their guidance throughout the whole project.
+
+<!-- LICENSE -->
+## License
+[MIT License](https://opensource.org/licenses/MIT)
