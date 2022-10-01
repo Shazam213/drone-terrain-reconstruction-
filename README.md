@@ -1,5 +1,24 @@
 # Project
-Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to construct a 3D model of that terrain with the incorporation of the Point Cloud Library (PCL).
+Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to construct a 3D model of that terrain with the incorporation of the Point Cloud Library (PCL). <br>
+
+<table>
+  <tr>
+   <th colspan="4">Flying our drone over a sample terrain:</th>
+ </tr>
+ <tr>
+  <td colspan="4" align="center"><img src = "assets/drone-flying.gif" width="800" height="480" /></td>
+ </tr>
+ <tr>
+    <th colspan="2"> Getting Point Cloud Data of that terrain: </th>
+    <th colspan = "2"> And reconstructing it: </th>
+  </tr>
+  <tr>
+    <td colspan = "2"> <img src = "assets/terrain-source.png" width="640" height="300" />  </td>
+    <td colspan = "2"> <img src = "assets/terrain-mesh-mls.png" width="640" height="300" />  </td>
+ </tr>
+</table>
+                                                          
+              
 
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
@@ -139,13 +158,16 @@ rosrun sjtu_drone listener
 ```
 <!-- PROCESS FLOW -->
 ## Process Flow
+<img src = "https://user-images.githubusercontent.com/95737452/193408478-136fde79-c182-48d3-b425-07b2550f21b1.png" height="400" width="1000">
+
 
 <!-- RESULTS AND DEMO -->
 ## Results and Demo
 
 <!-- FUTURE WORK -->
 ## Future Work
-- [] Uderstand [CGAL](https://www.cgal.org/) To implement surface reconstruction algorithms.
+- [] Implement other surface reconstruction algorithms like [Marching Cubes Algorithm](https://pointclouds.org/documentation/classpcl_1_1_marching_cubes.html) and [Poisson Surface Reconstruction](https://pointclouds.org/documentation/classpcl_1_1_poisson.html) using PCL.
+- [] Uderstand [CGAL](https://www.cgal.org/) To implement other surface reconstruction algorithms.
 - [] Understand the implementation of Delaunay Triangulation using CGAL.
 - [] Improve the algorithm to make it work for multiple frames of data.
 
