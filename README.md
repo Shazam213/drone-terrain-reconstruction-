@@ -1,5 +1,5 @@
 # Project
-Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to construct a 3D model of that terrain with the incorporation of the Point Cloud Library (PCL). <br>
+Flying a drone over some terrain in [ROS](http://wiki.ros.org/ROS/Tutorials) with a GPS and a Depth Sensor and to construct a 3D model of that terrain with the incorporation of the Point Cloud Library [(PCL)](http://wiki.ros.org/pcl/Tutorials). <br>
 
 <table>
   <tr>
@@ -13,8 +13,8 @@ Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to con
     <th colspan = "2"> And reconstructing it: </th>
   </tr>
   <tr>
-    <td colspan = "2"> <img src = "assets/terrain-source.png" width="640" height="300" />  </td>
-    <td colspan = "2"> <img src = "assets/terrain-mesh-mls.png" width="640" height="300" />  </td>
+    <td colspan = "2"> <img src = "https://user-images.githubusercontent.com/95737452/195854089-5d94c0bd-0c95-446f-a87f-22292b4ac60d.png" width="640" height="300" />  </td>
+    <td colspan = "2"> <img src = "https://user-images.githubusercontent.com/95737452/195854646-7a62a1f9-df38-457d-8854-4eeb05b6e146.png" width="640" height="300" />  </td>
  </tr>
 </table>
                                                           
@@ -43,13 +43,18 @@ Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to con
 
 * The idea is to have a Drone fly over some terrain in ROS with a GPS and a Depth sensor, then get the pointcloud data from the drone and create a 3D map of the topography of the terrain.
 * The traditional problem addressed by surface reconstruction is to recover the digital representation of a physical shape that has been scanned, where the scanned data contains a wide variety of defects. At its core, therefore, surface reconstruction is the process by which a 3D object is inferred, or “reconstructed”, from a collection of discrete points that sample the shape, which is in our case, is obtained from LiDAR Sensors. 
-* Throughout the course of this project, we learnt about several reconstruction techniques that included such as subsampling, upsampling, estimation of surface normals and algorithm for mesh creation from these calculated normals.
+* Throughout the course of this project, we learnt about several reconstruction techniques that included such as:
+  * Subsampling
+  * Upsampling
+  * Estimation of surface normals
+  * Surface reconstruction from normals.
 * The project was started with the use of ROS to obtain the Point Cloud data of a terrain with the use of LiDAR sesnsors. The use of Point Cloud Library followed to create 3D Polygonal Meshes and understanding its usage and experimenting with the various algorithms used in PCL for reconstructing meshes from the point clouds. 
 * PCL makes use of many algorithms like Marching Cubes, Grid Projection, Greedy Projection, etc. After experimenting, the project focused on creating the mesh using the Greedy Projection Triangulation algorithm. The data for GPT has been created from the Point Cloud using Moving Least Squares via Maximum Likelihood Estimation.
 
 ### Tech Stack
 * [ROS Noetic](http://wiki.ros.org/noetic)
 * [Gazebo](http://gazebosim.org/)
+* [RViz](http://wiki.ros.org/rviz/UserGuide)
 * [Point Cloud Library](https://pcl.readthedocs.io/en/latest/)
 * [MeshLab](https://www.meshlab.net/#download) (optional)
 
@@ -64,9 +69,6 @@ Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to con
  ┃ ┗ 📜pid_controller.h             
  ┃ ┗ 📜plugin_drone.h             
  ┃ ┗ 📜plugin_ros_cam.h             
- ┃ ┗ 📜plugin_ros_imu.h             
- ┃ ┗ 📜plugin_ros_imu_native.h
- ┃ ┗ 📜plugin_ros_sonar.h
  ┃ ┗ 📜sensor_model.h
  ┃ ┗ 📜util_ros_cam.h                 
  ┣ 📂launch                           #launch files
@@ -79,9 +81,7 @@ Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to con
  ┃ ┃ ┗ 📜model.sdf
  ┣ 📂plugins                         #plugins for the model
  ┃ ┗ 📜libplugin_drone.so
- ┃ ┗ 📜libplugin_ros_cam.so             
- ┃ ┗ 📜libplugin_ros_imu.so           
- ┃ ┗ 📜libplugin_ros_sonar.so          
+ ┃ ┗ 📜libplugin_ros_cam.so                   
  ┣ 📂scripts                          #C++ program used to run the drone
  ┃ ┣ listener.cpp                     #Used to get PCD from the drone and to process the data using PCL
  ┣ 📂src                              #contains custom plugins used with the drone
@@ -91,10 +91,7 @@ Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to con
  ┃ ┗ 📜drone_object_ros.cpppid_controller.cpp
  ┃ ┗ 📜plugin_drone.cpp
  ┃ ┗ 📜plugin_ros_cam.cpp
- ┃ ┗ 📜plugin_ros_imu.cpp
- ┃ ┗ 📜plugin_ros_imu_native.cpp
  ┃ ┗ 📜plugin_ros_init.cpp
- ┃ ┗ 📜plugin_ros_sonar.cpp
  ┃ ┗ 📜util_ros_cam.cpp
  ┣ 📂urdf
  ┃ ┗ 📜sjtu_drone.urdf
@@ -113,8 +110,9 @@ Flying a drone over some terrain in ROS with a GPS and a Depth Sensor and to con
 * Tested on [Ubuntu 20.04](https://ubuntu.com/download/desktop)
 * [ROS Noetic](http://wiki.ros.org/noetic/Installation)
 * [Gazebo Sim](http://gazebosim.org/)
+* [RViz](http://wiki.ros.org/rviz/UserGuide)
 * [Point Cloud Library](https://pointclouds.org/downloads/#linux)
-* Do visit these websites for the installation steps of the above mentioned software. It is recommended to install Gazebo along with ROS and not seperately
+
  
 ### Installation
 
@@ -158,6 +156,8 @@ rosrun sjtu_drone listener
 ```
 <!-- PROCESS FLOW -->
 ## Process Flow
+<img src = "https://user-images.githubusercontent.com/95737452/195857258-1affa14d-25fd-453d-8de0-b0970d3c3111.png" height="500" width="1000">
+
 <img src = "https://user-images.githubusercontent.com/95737452/193408478-136fde79-c182-48d3-b425-07b2550f21b1.png" height="400" width="1000">
 
 
@@ -166,10 +166,10 @@ rosrun sjtu_drone listener
 
 <!-- FUTURE WORK -->
 ## Future Work
-- [] Implement other surface reconstruction algorithms like [Marching Cubes Algorithm](https://pointclouds.org/documentation/classpcl_1_1_marching_cubes.html) and [Poisson Surface Reconstruction](https://pointclouds.org/documentation/classpcl_1_1_poisson.html) using PCL.
-- [] Uderstand [CGAL](https://www.cgal.org/) To implement other surface reconstruction algorithms.
-- [] Understand the implementation of Delaunay Triangulation using CGAL.
-- [] Improve the algorithm to make it work for multiple frames of data.
+- [ ] Implement other surface reconstruction algorithms like [Marching Cubes Algorithm](https://pointclouds.org/documentation/classpcl_1_1_marching_cubes.html) and [Poisson Surface Reconstruction](https://pointclouds.org/documentation/classpcl_1_1_poisson.html) using PCL.
+- [ ] Uderstand [CGAL](https://www.cgal.org/) To implement other surface reconstruction algorithms.
+- [ ] Understand the implementation of Delaunay Triangulation using CGAL.
+- [ ] Improve the algorithm to make it work for multiple frames of data.
 
 <!-- CONTRIBUTORS -->
 ## Contributors
